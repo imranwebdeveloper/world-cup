@@ -230,7 +230,7 @@ hr {
 .footer_menu {
   padding: 1rem;
 }
-.footer_menu ul {
+.footer_menu > ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,6 +244,7 @@ hr {
 .footer_menu ul li a i {
   font-size: 1.2rem;
 }
+
 /* -------------------------------------------------------------------------- */
 /*                                  Keyframes                                 */
 /* -------------------------------------------------------------------------- */
@@ -312,7 +313,7 @@ hr {
   .blogs {
     grid-template-columns: 1fr;
   }
-  .footer_menu > ul {
+  .footer_menu > .menu {
     flex-direction: column;
   }
 }
